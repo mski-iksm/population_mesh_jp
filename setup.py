@@ -11,14 +11,14 @@ install_requires = [
 ]
 
 setup(
-    name=population_mesh_jp,
+    name='population_mesh_jp',
     use_scm_version=True,
     setup_requires=['setuptools_scm'],
-    description=Python library for downloading population mesh data of Japan.,
-    long_description=long_description,
+    description='Python library for downloading population mesh data of Japan.',
+    long_description='long_description',
     long_description_content_type="text/markdown",
-    author=Daiki Ikeshima,
-    license=MIT License,
+    author='mski_iksm',
+    license='MIT License',
     packages=find_packages(),
     install_requires=install_requires,
     test_suite='test')
